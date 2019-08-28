@@ -25,7 +25,6 @@ class App extends Component {
             image={pokemon.image}
           />
           ))}
-
         </Wrapper>
       </>
     );
