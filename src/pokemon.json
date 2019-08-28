@@ -1,34 +1,42 @@
 [
   {
     "id": 1,
+    "name": "squirtle",
     "image": "http://u.cubeupload.com/diskinected/picture1.png"
   },
   {
     "id": 2,
+    "name": "charmander",
     "image": "http://u.cubeupload.com/diskinected/picture2.png"
   },
   {
     "id": 3,
+    "name": "bulbasaur",
     "image": "http://u.cubeupload.com/diskinected/picture3.png"
   },
   {
     "id": 4,
+    "name": "meowth",
     "image": "http://u.cubeupload.com/diskinected/picture4.png"
   },
   {
     "id": 5,
+    "name": "pikachu",
     "image": "http://u.cubeupload.com/diskinected/picture5.png"
   },
   {
     "id": 6,
+    "name": "togepi",
     "image": "http://u.cubeupload.com/diskinected/picture6.png"
   },
   {
     "id": 7,
+    "name": "clafairy",
     "image": "http://u.cubeupload.com/diskinected/picture7.png"
   },
   {
     "id": 8,
+    "name": "psyduck",
     "image": "http://u.cubeupload.com/diskinected/picture8.png"
   }
 ]

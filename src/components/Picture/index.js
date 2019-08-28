@@ -5,9 +5,7 @@ import "./style.css";
 function Picture(props) {
   return (
     <div className="card">
-      <div className="img-container">
-        <img alt={props.name} src={props.image} />
-      </div>
+        <img alt={props.id} src={props.image} />
     </div>
   );
 }

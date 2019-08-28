@@ -18,10 +18,14 @@ class App extends Component {
         <NavBar />
         <Header />
         <Wrapper>
-            <Picture
-              id={pokemons.id}
-              image={pokemons.image}
-            />
+          {this.state.pokemons.map(pokemon => (
+          <Picture
+            id={pokemon.id}
+            key={pokemon.id}
+            image={pokemon.image}
+          />
+          ))}
+
         </Wrapper>
       </>
     );
