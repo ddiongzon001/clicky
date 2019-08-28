@@ -1,4 +1,6 @@
 .navbar{
   background-color: #741E4B;
   color: white;
+  box-shadow: 0 6px 6px -6px #00000069;
+
 }
