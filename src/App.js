@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import FriendCard from "./components/Picture";
 import Wrapper from "./components/Wrapper";
 import NavBar from "./components/NavBar";
+import Header from "./components/Header";
 import friends from "./pokemon.json";
 
 class App extends Component {
@@ -22,6 +23,7 @@ class App extends Component {
     return (
       <>
         <NavBar />
+        <Header />
         <Wrapper>
           {this.state.friends.map(friend => (
             <FriendCard
