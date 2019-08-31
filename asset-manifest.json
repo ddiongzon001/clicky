@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/clicky/static/css/main.0e5b75de.chunk.css",
+    "main.js": "/clicky/static/js/main.ba0b1320.chunk.js",
+    "main.js.map": "/clicky/static/js/main.ba0b1320.chunk.js.map",
+    "runtime~main.js": "/clicky/static/js/runtime~main.68383fad.js",
+    "runtime~main.js.map": "/clicky/static/js/runtime~main.68383fad.js.map",
+    "static/js/2.9fdd8471.chunk.js": "/clicky/static/js/2.9fdd8471.chunk.js",
+    "static/js/2.9fdd8471.chunk.js.map": "/clicky/static/js/2.9fdd8471.chunk.js.map",
+    "index.html": "/clicky/index.html",
+    "precache-manifest.6c0fd9c7b5a3905bdf81ac4bcb634142.js": "/clicky/precache-manifest.6c0fd9c7b5a3905bdf81ac4bcb634142.js",
+    "service-worker.js": "/clicky/service-worker.js",
+    "static/css/main.0e5b75de.chunk.css.map": "/clicky/static/css/main.0e5b75de.chunk.css.map",
+    "static/media/style.css": "/clicky/static/media/background.d4332a29.jpg"
+  }
+}
