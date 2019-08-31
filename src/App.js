@@ -18,7 +18,7 @@ class App extends Component {
   userClick = event => {
     event.preventDefault();
 
-    console.log("this was clicked");
+    this.setState({score: this.state.score + 1})
   }
 
   // Map over this.state.friends and render a FriendCard component for each friend object
