@@ -18,6 +18,8 @@ class App extends Component {
   userClick = event => {
     event.preventDefault();
 
+    console.log(event.target.alt);
+
     this.setState({score: this.state.score + 1})
   }
 
