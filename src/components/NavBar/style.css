@@ -4,3 +4,11 @@
   box-shadow: 0 6px 6px -6px #00000069;
 
 }
+
+.show{
+  visibility: visible;
+}
+
+.hide{
+  visibility: hidden;
+}
