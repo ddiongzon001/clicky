@@ -1,11 +1,11 @@
 [
   {
-    "id": 1,
+    "id": "1",
     "name": "squirtle",
     "image": "http://u.cubeupload.com/diskinected/picture1.png"
   },
   {
-    "id": 2,
+    "id": "2",
     "name": "charmander",
     "image": "http://u.cubeupload.com/diskinected/picture2.png"
   },

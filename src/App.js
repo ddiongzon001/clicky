@@ -15,12 +15,31 @@ class App extends Component {
 
   };
 
+  // this is what happens when the user clicks on a picture
   userClick = event => {
     event.preventDefault();
 
-    console.log(event.target.alt);
+    console.log("guessed: " + this.state.clicked);
 
-    this.setState({score: this.state.score + 1})
+    // gets the alt attribute from the image and saves it to a variable
+    const clickedOn = event.target.alt;
+
+    let inGuessed = this.state.clicked.indexOf(clickedOn);
+
+    console.log(inGuessed);
+
+    if(inGuessed === -1){
+      this.setState({score: this.state.score + 1})
+    } else{
+      this.setState({
+        score: 0,
+        clicked: []})
+    }
+
+    this.setState({clicked: this.state.clicked.concat(clickedOn)})
+    console.log("guessed: " + this.state.clicked);
+
+    
   }
 
   // Map over this.state.friends and render a FriendCard component for each friend object
