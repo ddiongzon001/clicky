@@ -6,16 +6,22 @@ import Header from "./components/Header";
 import pokemons from "./pokemon.json";
 
 class App extends Component {
-  // Setting this.state.friends to the friends json array
+  // set the initial state
   state = {
-    pokemons
+    pokemons,
+    clicked: [],
+    score: 0,
+    topScore: 0,
+
   };
 
   // Map over this.state.friends and render a FriendCard component for each friend object
   render() {
     return (
       <>
-        <NavBar />
+        <NavBar 
+        score={this.state.score} 
+        topScore={this.state.topScore}/>
         <Header />
         <Wrapper>
           {this.state.pokemons.map(pokemon => (
