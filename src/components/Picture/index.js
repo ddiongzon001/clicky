@@ -4,7 +4,7 @@ import "./style.css";
 
 function Picture(props) {
   return (
-    <div className="card">
+    <div className="card" onClick={props.userClick}>
         <img alt={props.id} src={props.image} />
     </div>
   );

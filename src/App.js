@@ -15,6 +15,12 @@ class App extends Component {
 
   };
 
+  userClick = event => {
+    event.preventDefault();
+
+    console.log("this was clicked");
+  }
+
   // Map over this.state.friends and render a FriendCard component for each friend object
   render() {
     return (
@@ -26,6 +32,7 @@ class App extends Component {
         <Wrapper>
           {this.state.pokemons.map(pokemon => (
           <Picture
+            userClick={this.userClick}
             id={pokemon.id}
             key={pokemon.id}
             image={pokemon.image}
