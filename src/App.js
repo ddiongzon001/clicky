@@ -23,6 +23,16 @@ class App extends Component {
     })
   }
 
+  // sets topScore
+  setTop = () => {
+    let newScore = this.state.score;
+    if(newScore > this.state.topScore){
+      this.setState({
+        topScore: this.state.score
+      })
+    }
+  }
+
   // this is what happens when the user clicks on a picture
   userClick = event => {
     event.preventDefault();
@@ -39,9 +49,11 @@ class App extends Component {
 
     // if its -1, it updates the score else it resets the score to 0 and click to blank
     if(inGuessed === -1){
-      this.setState({clicked: this.state.clicked.concat(clickedOn)})
-      this.setState({score: this.state.score + 1})
+      this.setState({
+      clicked: this.state.clicked.concat(clickedOn),
+      score: this.state.score +1});
     } else{
+      this.setTop();
       this.reset();
     }
 
