@@ -33,6 +33,11 @@ class App extends Component {
     }
   }
 
+  // randomize the pokemon array
+  randomize = () => {
+    this.state.pokemons.sort((a,b) => 0.5 - Math.random());
+  }
+
   // this is what happens when the user clicks on a picture
   userClick = event => {
     event.preventDefault();
@@ -57,7 +62,7 @@ class App extends Component {
       this.reset();
     }
 
-    
+    this.randomize();
   }
 
   // Map over this.state.friends and render a FriendCard component for each friend object
